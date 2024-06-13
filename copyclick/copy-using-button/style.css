@@ -1,0 +1,48 @@
+body {
+    color: white;
+    background-color: rgb(60, 60, 60);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    color: orchid;
+    margin: 12px;
+    padding: 12px;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid orchid;
+    background-color: rgba(218, 112, 214, 0.1);
+}
+
+.text {
+    width: 200px;
+    border-radius: 8px;
+    padding: 12px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 12rem auto 2rem auto;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.btn {
+    width: 80px;
+    padding: 8px;
+    margin: auto;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    border-radius: 8px;
+    text-align: center;
+    color: rgb(0, 250, 154);
+    border: 1px solid rgb(0, 250, 154);
+    background-color: rgba(0, 250, 154, 0.1);
+}
+
+.notify {
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 250, 154);
+
+}
