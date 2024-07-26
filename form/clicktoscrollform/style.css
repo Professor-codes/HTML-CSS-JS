@@ -1,0 +1,51 @@
+body {
+    color: white;
+    background-color: rgb(60, 60, 60);
+}
+
+.controls {
+    display: flex;
+    position: fixed;
+    padding: 1em;
+    left: 72rem;
+}
+
+li.gfield {
+    margin-bottom: 40px;
+    padding: 30px 0 1000px 40px;
+}
+
+.btn {
+    width: 80px;
+    padding: 8px;
+    margin: auto 1rem;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    border-radius: 8px;
+    text-align: center;
+    color: rgb(0, 250, 154);
+    border: 1px solid rgb(0, 250, 154);
+    background-color: rgba(0, 250, 154, 0.1);
+}
+
+label {
+    color: aqua;
+    margin: 0.8rem 0 0.5rem 0;
+    display: block;
+}
+
+input {
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid rgb(132, 132, 132);
+    background-color: rgba(255, 255, 255, 0.02);
+    backdrop-filter: blur(10px);
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid rgb(255, 0, 217);
+}
