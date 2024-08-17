@@ -1,0 +1,2154 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+#sky {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+.star {
+    opacity: 0;
+    position: absolute;
+    background: white;
+    box-shadow: 0px 0px 20px 0px #fff;
+    border-radius: 100%;
+    transform-origin: 0, 0;
+    animation-timing-function: linear, linear !important;
+    animation-iteration-count: infinite, infinite !important;
+    animation-delay: -30s, -30s !important;
+}
+
+.size-1 {
+    width: 1px;
+    height: 1px;
+}
+
+.size-2 {
+    width: 2px;
+    height: 2px;
+}
+
+.axis-1 {
+    animation: anim0 19979ms, fade1 19979ms;
+}
+
+.axis-2 {
+    animation: anim0 18036ms, fade1 18036ms;
+}
+
+.axis-3 {
+    animation: anim0 16729ms, fade9 16729ms;
+}
+
+.axis-4 {
+    animation: anim4 15590ms, fade7 15590ms;
+}
+
+.axis-5 {
+    animation: anim4 22700ms, fade6 22700ms;
+}
+
+.axis-6 {
+    animation: anim4 21077ms, fade4 21077ms;
+}
+
+.axis-7 {
+    animation: anim4 17218ms, fade10 17218ms;
+}
+
+.axis-8 {
+    animation: anim8 37191ms, fade9 37191ms;
+}
+
+.axis-9 {
+    animation: anim8 21749ms, fade8 21749ms;
+}
+
+.axis-10 {
+    animation: anim8 10148ms, fade5 10148ms;
+}
+
+.axis-11 {
+    animation: anim8 40747ms, fade5 40747ms;
+}
+
+.axis-12 {
+    animation: anim12 42110ms, fade5 42110ms;
+}
+
+.axis-13 {
+    animation: anim12 11249ms, fade4 11249ms;
+}
+
+.axis-14 {
+    animation: anim12 18637ms, fade4 18637ms;
+}
+
+.axis-15 {
+    animation: anim12 42825ms, fade5 42825ms;
+}
+
+.axis-16 {
+    animation: anim16 30702ms, fade4 30702ms;
+}
+
+.axis-17 {
+    animation: anim16 9289ms, fade4 9289ms;
+}
+
+.axis-18 {
+    animation: anim16 34987ms, fade8 34987ms;
+}
+
+.axis-19 {
+    animation: anim16 14649ms, fade2 14649ms;
+}
+
+.axis-20 {
+    animation: anim20 9386ms, fade6 9386ms;
+}
+
+.axis-21 {
+    animation: anim20 26408ms, fade1 26408ms;
+}
+
+.axis-22 {
+    animation: anim20 15941ms, fade10 15941ms;
+}
+
+.axis-23 {
+    animation: anim20 24330ms, fade6 24330ms;
+}
+
+.axis-24 {
+    animation: anim24 14727ms, fade8 14727ms;
+}
+
+.axis-25 {
+    animation: anim24 33182ms, fade2 33182ms;
+}
+
+.axis-26 {
+    animation: anim24 14736ms, fade6 14736ms;
+}
+
+.axis-27 {
+    animation: anim24 25431ms, fade4 25431ms;
+}
+
+.axis-28 {
+    animation: anim28 14262ms, fade4 14262ms;
+}
+
+.axis-29 {
+    animation: anim28 22143ms, fade6 22143ms;
+}
+
+.axis-30 {
+    animation: anim28 6418ms, fade6 6418ms;
+}
+
+.axis-31 {
+    animation: anim28 37811ms, fade1 37811ms;
+}
+
+.axis-32 {
+    animation: anim32 9708ms, fade4 9708ms;
+}
+
+.axis-33 {
+    animation: anim32 14521ms, fade5 14521ms;
+}
+
+.axis-34 {
+    animation: anim32 7865ms, fade4 7865ms;
+}
+
+.axis-35 {
+    animation: anim32 10652ms, fade2 10652ms;
+}
+
+.axis-36 {
+    animation: anim36 24519ms, fade8 24519ms;
+}
+
+.axis-37 {
+    animation: anim36 6382ms, fade2 6382ms;
+}
+
+.axis-38 {
+    animation: anim36 30870ms, fade9 30870ms;
+}
+
+.axis-39 {
+    animation: anim36 43103ms, fade7 43103ms;
+}
+
+.axis-40 {
+    animation: anim40 31093ms, fade7 31093ms;
+}
+
+.axis-41 {
+    animation: anim40 25744ms, fade6 25744ms;
+}
+
+.axis-42 {
+    animation: anim40 27022ms, fade8 27022ms;
+}
+
+.axis-43 {
+    animation: anim40 14533ms, fade8 14533ms;
+}
+
+.axis-44 {
+    animation: anim44 39274ms, fade6 39274ms;
+}
+
+.axis-45 {
+    animation: anim44 20738ms, fade5 20738ms;
+}
+
+.axis-46 {
+    animation: anim44 32785ms, fade5 32785ms;
+}
+
+.axis-47 {
+    animation: anim44 30022ms, fade1 30022ms;
+}
+
+.axis-48 {
+    animation: anim48 22088ms, fade3 22088ms;
+}
+
+.axis-49 {
+    animation: anim48 5336ms, fade5 5336ms;
+}
+
+.axis-50 {
+    animation: anim48 39826ms, fade3 39826ms;
+}
+
+.axis-51 {
+    animation: anim48 13378ms, fade3 13378ms;
+}
+
+.axis-52 {
+    animation: anim52 37644ms, fade3 37644ms;
+}
+
+.axis-53 {
+    animation: anim52 8745ms, fade5 8745ms;
+}
+
+.axis-54 {
+    animation: anim52 19446ms, fade3 19446ms;
+}
+
+.axis-55 {
+    animation: anim52 8948ms, fade8 8948ms;
+}
+
+.axis-56 {
+    animation: anim56 42231ms, fade1 42231ms;
+}
+
+.axis-57 {
+    animation: anim56 12586ms, fade3 12586ms;
+}
+
+.axis-58 {
+    animation: anim56 16710ms, fade7 16710ms;
+}
+
+.axis-59 {
+    animation: anim56 7808ms, fade9 7808ms;
+}
+
+.axis-60 {
+    animation: anim60 6976ms, fade4 6976ms;
+}
+
+.axis-61 {
+    animation: anim60 23917ms, fade3 23917ms;
+}
+
+.axis-62 {
+    animation: anim60 33720ms, fade1 33720ms;
+}
+
+.axis-63 {
+    animation: anim60 26598ms, fade9 26598ms;
+}
+
+.axis-64 {
+    animation: anim64 37126ms, fade2 37126ms;
+}
+
+.axis-65 {
+    animation: anim64 6929ms, fade9 6929ms;
+}
+
+.axis-66 {
+    animation: anim64 13216ms, fade7 13216ms;
+}
+
+.axis-67 {
+    animation: anim64 39464ms, fade6 39464ms;
+}
+
+.axis-68 {
+    animation: anim68 44783ms, fade7 44783ms;
+}
+
+.axis-69 {
+    animation: anim68 6974ms, fade8 6974ms;
+}
+
+.axis-70 {
+    animation: anim68 22900ms, fade2 22900ms;
+}
+
+.axis-71 {
+    animation: anim68 19291ms, fade4 19291ms;
+}
+
+.axis-72 {
+    animation: anim72 8811ms, fade7 8811ms;
+}
+
+.axis-73 {
+    animation: anim72 42193ms, fade8 42193ms;
+}
+
+.axis-74 {
+    animation: anim72 38560ms, fade2 38560ms;
+}
+
+.axis-75 {
+    animation: anim72 18179ms, fade6 18179ms;
+}
+
+.axis-76 {
+    animation: anim76 6176ms, fade9 6176ms;
+}
+
+.axis-77 {
+    animation: anim76 25600ms, fade3 25600ms;
+}
+
+.axis-78 {
+    animation: anim76 38185ms, fade3 38185ms;
+}
+
+.axis-79 {
+    animation: anim76 34657ms, fade9 34657ms;
+}
+
+.axis-80 {
+    animation: anim80 40512ms, fade5 40512ms;
+}
+
+.axis-81 {
+    animation: anim80 25999ms, fade8 25999ms;
+}
+
+.axis-82 {
+    animation: anim80 21272ms, fade5 21272ms;
+}
+
+.axis-83 {
+    animation: anim80 22079ms, fade10 22079ms;
+}
+
+.axis-84 {
+    animation: anim84 24601ms, fade10 24601ms;
+}
+
+.axis-85 {
+    animation: anim84 11989ms, fade5 11989ms;
+}
+
+.axis-86 {
+    animation: anim84 21908ms, fade9 21908ms;
+}
+
+.axis-87 {
+    animation: anim84 42614ms, fade6 42614ms;
+}
+
+.axis-88 {
+    animation: anim88 15581ms, fade1 15581ms;
+}
+
+.axis-89 {
+    animation: anim88 11995ms, fade7 11995ms;
+}
+
+.axis-90 {
+    animation: anim88 26592ms, fade8 26592ms;
+}
+
+.axis-91 {
+    animation: anim88 37999ms, fade5 37999ms;
+}
+
+.axis-92 {
+    animation: anim92 12371ms, fade6 12371ms;
+}
+
+.axis-93 {
+    animation: anim92 22691ms, fade9 22691ms;
+}
+
+.axis-94 {
+    animation: anim92 6492ms, fade3 6492ms;
+}
+
+.axis-95 {
+    animation: anim92 35879ms, fade6 35879ms;
+}
+
+.axis-96 {
+    animation: anim96 30930ms, fade10 30930ms;
+}
+
+.axis-97 {
+    animation: anim96 19970ms, fade10 19970ms;
+}
+
+.axis-98 {
+    animation: anim96 32428ms, fade9 32428ms;
+}
+
+.axis-99 {
+    animation: anim96 14627ms, fade1 14627ms;
+}
+
+.axis-100 {
+    animation: anim100 8921ms, fade1 8921ms;
+}
+
+.axis-101 {
+    animation: anim100 39597ms, fade8 39597ms;
+}
+
+.axis-102 {
+    animation: anim100 20896ms, fade8 20896ms;
+}
+
+.axis-103 {
+    animation: anim100 42516ms, fade1 42516ms;
+}
+
+.axis-104 {
+    animation: anim104 31220ms, fade1 31220ms;
+}
+
+.axis-105 {
+    animation: anim104 24937ms, fade1 24937ms;
+}
+
+.axis-106 {
+    animation: anim104 16267ms, fade8 16267ms;
+}
+
+.axis-107 {
+    animation: anim104 20943ms, fade1 20943ms;
+}
+
+.axis-108 {
+    animation: anim108 20162ms, fade10 20162ms;
+}
+
+.axis-109 {
+    animation: anim108 44750ms, fade3 44750ms;
+}
+
+.axis-110 {
+    animation: anim108 32724ms, fade6 32724ms;
+}
+
+.axis-111 {
+    animation: anim108 44181ms, fade1 44181ms;
+}
+
+.axis-112 {
+    animation: anim112 21491ms, fade3 21491ms;
+}
+
+.axis-113 {
+    animation: anim112 8821ms, fade8 8821ms;
+}
+
+.axis-114 {
+    animation: anim112 32828ms, fade1 32828ms;
+}
+
+.axis-115 {
+    animation: anim112 22281ms, fade2 22281ms;
+}
+
+.axis-116 {
+    animation: anim116 33152ms, fade9 33152ms;
+}
+
+.axis-117 {
+    animation: anim116 15089ms, fade9 15089ms;
+}
+
+.axis-118 {
+    animation: anim116 12625ms, fade4 12625ms;
+}
+
+.axis-119 {
+    animation: anim116 5879ms, fade4 5879ms;
+}
+
+.axis-120 {
+    animation: anim120 12042ms, fade2 12042ms;
+}
+
+.axis-121 {
+    animation: anim120 20922ms, fade5 20922ms;
+}
+
+.axis-122 {
+    animation: anim120 5786ms, fade9 5786ms;
+}
+
+.axis-123 {
+    animation: anim120 21929ms, fade8 21929ms;
+}
+
+.axis-124 {
+    animation: anim124 41827ms, fade2 41827ms;
+}
+
+.axis-125 {
+    animation: anim124 42525ms, fade10 42525ms;
+}
+
+.axis-126 {
+    animation: anim124 38695ms, fade9 38695ms;
+}
+
+.axis-127 {
+    animation: anim124 25543ms, fade5 25543ms;
+}
+
+.axis-128 {
+    animation: anim128 33347ms, fade3 33347ms;
+}
+
+.axis-129 {
+    animation: anim128 13711ms, fade9 13711ms;
+}
+
+.axis-130 {
+    animation: anim128 13949ms, fade2 13949ms;
+}
+
+.axis-131 {
+    animation: anim128 19638ms, fade2 19638ms;
+}
+
+.axis-132 {
+    animation: anim132 5615ms, fade6 5615ms;
+}
+
+.axis-133 {
+    animation: anim132 38059ms, fade4 38059ms;
+}
+
+.axis-134 {
+    animation: anim132 14538ms, fade7 14538ms;
+}
+
+.axis-135 {
+    animation: anim132 29280ms, fade5 29280ms;
+}
+
+.axis-136 {
+    animation: anim136 15412ms, fade10 15412ms;
+}
+
+.axis-137 {
+    animation: anim136 20428ms, fade2 20428ms;
+}
+
+.axis-138 {
+    animation: anim136 26664ms, fade4 26664ms;
+}
+
+.axis-139 {
+    animation: anim136 23152ms, fade7 23152ms;
+}
+
+.axis-140 {
+    animation: anim140 5351ms, fade10 5351ms;
+}
+
+.axis-141 {
+    animation: anim140 26201ms, fade6 26201ms;
+}
+
+.axis-142 {
+    animation: anim140 38020ms, fade9 38020ms;
+}
+
+.axis-143 {
+    animation: anim140 27648ms, fade10 27648ms;
+}
+
+.axis-144 {
+    animation: anim144 24760ms, fade10 24760ms;
+}
+
+.axis-145 {
+    animation: anim144 42903ms, fade5 42903ms;
+}
+
+.axis-146 {
+    animation: anim144 7339ms, fade5 7339ms;
+}
+
+.axis-147 {
+    animation: anim144 33942ms, fade2 33942ms;
+}
+
+.axis-148 {
+    animation: anim148 39723ms, fade4 39723ms;
+}
+
+.axis-149 {
+    animation: anim148 43542ms, fade10 43542ms;
+}
+
+.axis-150 {
+    animation: anim148 25886ms, fade3 25886ms;
+}
+
+.axis-151 {
+    animation: anim148 28515ms, fade10 28515ms;
+}
+
+.axis-152 {
+    animation: anim152 38969ms, fade1 38969ms;
+}
+
+.axis-153 {
+    animation: anim152 11122ms, fade3 11122ms;
+}
+
+.axis-154 {
+    animation: anim152 32954ms, fade7 32954ms;
+}
+
+.axis-155 {
+    animation: anim152 30430ms, fade10 30430ms;
+}
+
+.axis-156 {
+    animation: anim156 17587ms, fade9 17587ms;
+}
+
+.axis-157 {
+    animation: anim156 15756ms, fade6 15756ms;
+}
+
+.axis-158 {
+    animation: anim156 31584ms, fade1 31584ms;
+}
+
+.axis-159 {
+    animation: anim156 33146ms, fade10 33146ms;
+}
+
+.axis-160 {
+    animation: anim160 31937ms, fade1 31937ms;
+}
+
+.axis-161 {
+    animation: anim160 37101ms, fade2 37101ms;
+}
+
+.axis-162 {
+    animation: anim160 20527ms, fade9 20527ms;
+}
+
+.axis-163 {
+    animation: anim160 9708ms, fade1 9708ms;
+}
+
+.axis-164 {
+    animation: anim164 21487ms, fade3 21487ms;
+}
+
+.axis-165 {
+    animation: anim164 26860ms, fade5 26860ms;
+}
+
+.axis-166 {
+    animation: anim164 8715ms, fade2 8715ms;
+}
+
+.axis-167 {
+    animation: anim164 23318ms, fade2 23318ms;
+}
+
+.axis-168 {
+    animation: anim168 32820ms, fade3 32820ms;
+}
+
+.axis-169 {
+    animation: anim168 26337ms, fade9 26337ms;
+}
+
+.axis-170 {
+    animation: anim168 33768ms, fade3 33768ms;
+}
+
+.axis-171 {
+    animation: anim168 36502ms, fade9 36502ms;
+}
+
+.axis-172 {
+    animation: anim172 41261ms, fade2 41261ms;
+}
+
+.axis-173 {
+    animation: anim172 33498ms, fade2 33498ms;
+}
+
+.axis-174 {
+    animation: anim172 20116ms, fade8 20116ms;
+}
+
+.axis-175 {
+    animation: anim172 29959ms, fade10 29959ms;
+}
+
+.axis-176 {
+    animation: anim176 20819ms, fade8 20819ms;
+}
+
+.axis-177 {
+    animation: anim176 32985ms, fade7 32985ms;
+}
+
+.axis-178 {
+    animation: anim176 33614ms, fade7 33614ms;
+}
+
+.axis-179 {
+    animation: anim176 41010ms, fade10 41010ms;
+}
+
+.axis-180 {
+    animation: anim180 23646ms, fade6 23646ms;
+}
+
+.axis-181 {
+    animation: anim180 20417ms, fade4 20417ms;
+}
+
+.axis-182 {
+    animation: anim180 6427ms, fade5 6427ms;
+}
+
+.axis-183 {
+    animation: anim180 30780ms, fade3 30780ms;
+}
+
+.axis-184 {
+    animation: anim184 43335ms, fade9 43335ms;
+}
+
+.axis-185 {
+    animation: anim184 23593ms, fade2 23593ms;
+}
+
+.axis-186 {
+    animation: anim184 14792ms, fade6 14792ms;
+}
+
+.axis-187 {
+    animation: anim184 33249ms, fade6 33249ms;
+}
+
+.axis-188 {
+    animation: anim188 19809ms, fade5 19809ms;
+}
+
+.axis-189 {
+    animation: anim188 14914ms, fade1 14914ms;
+}
+
+.axis-190 {
+    animation: anim188 15495ms, fade10 15495ms;
+}
+
+.axis-191 {
+    animation: anim188 26728ms, fade10 26728ms;
+}
+
+.axis-192 {
+    animation: anim192 20872ms, fade5 20872ms;
+}
+
+.axis-193 {
+    animation: anim192 6292ms, fade9 6292ms;
+}
+
+.axis-194 {
+    animation: anim192 10310ms, fade2 10310ms;
+}
+
+.axis-195 {
+    animation: anim192 39893ms, fade1 39893ms;
+}
+
+.axis-196 {
+    animation: anim196 28278ms, fade8 28278ms;
+}
+
+.axis-197 {
+    animation: anim196 27335ms, fade3 27335ms;
+}
+
+.axis-198 {
+    animation: anim196 40223ms, fade6 40223ms;
+}
+
+.axis-199 {
+    animation: anim196 40542ms, fade7 40542ms;
+}
+
+.axis-200 {
+    animation: anim200 38144ms, fade1 38144ms;
+}
+
+.axis-201 {
+    animation: anim200 16630ms, fade3 16630ms;
+}
+
+.axis-202 {
+    animation: anim200 39298ms, fade5 39298ms;
+}
+
+.axis-203 {
+    animation: anim200 7476ms, fade6 7476ms;
+}
+
+.axis-204 {
+    animation: anim204 15247ms, fade8 15247ms;
+}
+
+.axis-205 {
+    animation: anim204 21180ms, fade6 21180ms;
+}
+
+.axis-206 {
+    animation: anim204 11447ms, fade9 11447ms;
+}
+
+.axis-207 {
+    animation: anim204 21035ms, fade7 21035ms;
+}
+
+.axis-208 {
+    animation: anim208 6508ms, fade8 6508ms;
+}
+
+.axis-209 {
+    animation: anim208 34571ms, fade3 34571ms;
+}
+
+.axis-210 {
+    animation: anim208 8641ms, fade10 8641ms;
+}
+
+.axis-211 {
+    animation: anim208 37603ms, fade6 37603ms;
+}
+
+.axis-212 {
+    animation: anim212 37187ms, fade4 37187ms;
+}
+
+.axis-213 {
+    animation: anim212 20195ms, fade2 20195ms;
+}
+
+.axis-214 {
+    animation: anim212 41991ms, fade4 41991ms;
+}
+
+.axis-215 {
+    animation: anim212 21510ms, fade7 21510ms;
+}
+
+.axis-216 {
+    animation: anim216 43900ms, fade2 43900ms;
+}
+
+.axis-217 {
+    animation: anim216 6754ms, fade2 6754ms;
+}
+
+.axis-218 {
+    animation: anim216 16694ms, fade1 16694ms;
+}
+
+.axis-219 {
+    animation: anim216 41428ms, fade10 41428ms;
+}
+
+.axis-220 {
+    animation: anim220 31544ms, fade2 31544ms;
+}
+
+.axis-221 {
+    animation: anim220 19217ms, fade10 19217ms;
+}
+
+.axis-222 {
+    animation: anim220 37472ms, fade2 37472ms;
+}
+
+.axis-223 {
+    animation: anim220 37522ms, fade8 37522ms;
+}
+
+.axis-224 {
+    animation: anim224 5142ms, fade9 5142ms;
+}
+
+.axis-225 {
+    animation: anim224 43627ms, fade9 43627ms;
+}
+
+.axis-226 {
+    animation: anim224 18924ms, fade2 18924ms;
+}
+
+.axis-227 {
+    animation: anim224 13520ms, fade5 13520ms;
+}
+
+.axis-228 {
+    animation: anim228 35966ms, fade8 35966ms;
+}
+
+.axis-229 {
+    animation: anim228 26763ms, fade7 26763ms;
+}
+
+.axis-230 {
+    animation: anim228 28547ms, fade1 28547ms;
+}
+
+.axis-231 {
+    animation: anim228 30204ms, fade1 30204ms;
+}
+
+.axis-232 {
+    animation: anim232 7939ms, fade7 7939ms;
+}
+
+.axis-233 {
+    animation: anim232 43228ms, fade6 43228ms;
+}
+
+.axis-234 {
+    animation: anim232 17047ms, fade2 17047ms;
+}
+
+.axis-235 {
+    animation: anim232 44027ms, fade8 44027ms;
+}
+
+.axis-236 {
+    animation: anim236 14063ms, fade8 14063ms;
+}
+
+.axis-237 {
+    animation: anim236 20129ms, fade10 20129ms;
+}
+
+.axis-238 {
+    animation: anim236 6127ms, fade9 6127ms;
+}
+
+.axis-239 {
+    animation: anim236 32153ms, fade8 32153ms;
+}
+
+.axis-240 {
+    animation: anim240 24169ms, fade8 24169ms;
+}
+
+.axis-241 {
+    animation: anim240 33427ms, fade1 33427ms;
+}
+
+.axis-242 {
+    animation: anim240 17245ms, fade6 17245ms;
+}
+
+.axis-243 {
+    animation: anim240 37511ms, fade4 37511ms;
+}
+
+.axis-244 {
+    animation: anim244 14383ms, fade10 14383ms;
+}
+
+.axis-245 {
+    animation: anim244 17635ms, fade7 17635ms;
+}
+
+.axis-246 {
+    animation: anim244 40086ms, fade9 40086ms;
+}
+
+.axis-247 {
+    animation: anim244 21145ms, fade2 21145ms;
+}
+
+.axis-248 {
+    animation: anim248 40584ms, fade1 40584ms;
+}
+
+.axis-249 {
+    animation: anim248 32076ms, fade10 32076ms;
+}
+
+.axis-250 {
+    animation: anim248 44899ms, fade2 44899ms;
+}
+
+.axis-251 {
+    animation: anim248 40654ms, fade8 40654ms;
+}
+
+.axis-252 {
+    animation: anim252 25115ms, fade3 25115ms;
+}
+
+.axis-253 {
+    animation: anim252 30196ms, fade7 30196ms;
+}
+
+.axis-254 {
+    animation: anim252 17637ms, fade9 17637ms;
+}
+
+.axis-255 {
+    animation: anim252 36058ms, fade10 36058ms;
+}
+
+.axis-256 {
+    animation: anim256 34159ms, fade9 34159ms;
+}
+
+.axis-257 {
+    animation: anim256 24042ms, fade3 24042ms;
+}
+
+.axis-258 {
+    animation: anim256 13622ms, fade1 13622ms;
+}
+
+.axis-259 {
+    animation: anim256 10511ms, fade8 10511ms;
+}
+
+.axis-260 {
+    animation: anim260 14425ms, fade1 14425ms;
+}
+
+.axis-261 {
+    animation: anim260 12288ms, fade10 12288ms;
+}
+
+.axis-262 {
+    animation: anim260 5043ms, fade1 5043ms;
+}
+
+.axis-263 {
+    animation: anim260 28400ms, fade5 28400ms;
+}
+
+.axis-264 {
+    animation: anim264 34612ms, fade5 34612ms;
+}
+
+.axis-265 {
+    animation: anim264 28564ms, fade9 28564ms;
+}
+
+.axis-266 {
+    animation: anim264 14176ms, fade4 14176ms;
+}
+
+.axis-267 {
+    animation: anim264 12580ms, fade2 12580ms;
+}
+
+.axis-268 {
+    animation: anim268 27107ms, fade1 27107ms;
+}
+
+.axis-269 {
+    animation: anim268 15560ms, fade10 15560ms;
+}
+
+.axis-270 {
+    animation: anim268 41790ms, fade6 41790ms;
+}
+
+.axis-271 {
+    animation: anim268 41625ms, fade6 41625ms;
+}
+
+.axis-272 {
+    animation: anim272 43857ms, fade4 43857ms;
+}
+
+.axis-273 {
+    animation: anim272 11354ms, fade4 11354ms;
+}
+
+.axis-274 {
+    animation: anim272 44014ms, fade5 44014ms;
+}
+
+.axis-275 {
+    animation: anim272 39160ms, fade7 39160ms;
+}
+
+.axis-276 {
+    animation: anim276 35917ms, fade5 35917ms;
+}
+
+.axis-277 {
+    animation: anim276 14448ms, fade7 14448ms;
+}
+
+.axis-278 {
+    animation: anim276 36680ms, fade10 36680ms;
+}
+
+.axis-279 {
+    animation: anim276 15111ms, fade8 15111ms;
+}
+
+.axis-280 {
+    animation: anim280 11637ms, fade5 11637ms;
+}
+
+.axis-281 {
+    animation: anim280 9841ms, fade2 9841ms;
+}
+
+.axis-282 {
+    animation: anim280 21023ms, fade10 21023ms;
+}
+
+.axis-283 {
+    animation: anim280 9484ms, fade5 9484ms;
+}
+
+.axis-284 {
+    animation: anim284 6399ms, fade1 6399ms;
+}
+
+.axis-285 {
+    animation: anim284 18178ms, fade9 18178ms;
+}
+
+.axis-286 {
+    animation: anim284 16531ms, fade10 16531ms;
+}
+
+.axis-287 {
+    animation: anim284 42432ms, fade6 42432ms;
+}
+
+.axis-288 {
+    animation: anim288 6310ms, fade2 6310ms;
+}
+
+.axis-289 {
+    animation: anim288 23320ms, fade6 23320ms;
+}
+
+.axis-290 {
+    animation: anim288 41353ms, fade3 41353ms;
+}
+
+.axis-291 {
+    animation: anim288 38848ms, fade9 38848ms;
+}
+
+.axis-292 {
+    animation: anim292 42000ms, fade9 42000ms;
+}
+
+.axis-293 {
+    animation: anim292 32808ms, fade9 32808ms;
+}
+
+.axis-294 {
+    animation: anim292 8105ms, fade5 8105ms;
+}
+
+.axis-295 {
+    animation: anim292 18481ms, fade5 18481ms;
+}
+
+.axis-296 {
+    animation: anim296 18683ms, fade9 18683ms;
+}
+
+.axis-297 {
+    animation: anim296 14816ms, fade9 14816ms;
+}
+
+.axis-298 {
+    animation: anim296 39190ms, fade6 39190ms;
+}
+
+.axis-299 {
+    animation: anim296 41564ms, fade1 41564ms;
+}
+
+.axis-300 {
+    animation: anim300 10240ms, fade5 10240ms;
+}
+
+.axis-301 {
+    animation: anim300 5175ms, fade8 5175ms;
+}
+
+.axis-302 {
+    animation: anim300 13731ms, fade4 13731ms;
+}
+
+.axis-303 {
+    animation: anim300 42110ms, fade2 42110ms;
+}
+
+.axis-304 {
+    animation: anim304 5849ms, fade10 5849ms;
+}
+
+.axis-305 {
+    animation: anim304 16002ms, fade4 16002ms;
+}
+
+.axis-306 {
+    animation: anim304 13782ms, fade2 13782ms;
+}
+
+.axis-307 {
+    animation: anim304 31141ms, fade2 31141ms;
+}
+
+.axis-308 {
+    animation: anim308 14343ms, fade10 14343ms;
+}
+
+.axis-309 {
+    animation: anim308 26388ms, fade1 26388ms;
+}
+
+.axis-310 {
+    animation: anim308 14548ms, fade1 14548ms;
+}
+
+.axis-311 {
+    animation: anim308 14848ms, fade10 14848ms;
+}
+
+.axis-312 {
+    animation: anim312 31003ms, fade4 31003ms;
+}
+
+.axis-313 {
+    animation: anim312 40546ms, fade3 40546ms;
+}
+
+.axis-314 {
+    animation: anim312 44753ms, fade8 44753ms;
+}
+
+.axis-315 {
+    animation: anim312 26558ms, fade10 26558ms;
+}
+
+.axis-316 {
+    animation: anim316 28073ms, fade7 28073ms;
+}
+
+.axis-317 {
+    animation: anim316 27285ms, fade2 27285ms;
+}
+
+.axis-318 {
+    animation: anim316 25433ms, fade5 25433ms;
+}
+
+.axis-319 {
+    animation: anim316 41610ms, fade2 41610ms;
+}
+
+.axis-320 {
+    animation: anim320 39713ms, fade5 39713ms;
+}
+
+.axis-321 {
+    animation: anim320 34592ms, fade8 34592ms;
+}
+
+.axis-322 {
+    animation: anim320 16485ms, fade6 16485ms;
+}
+
+.axis-323 {
+    animation: anim320 23609ms, fade3 23609ms;
+}
+
+.axis-324 {
+    animation: anim324 27931ms, fade6 27931ms;
+}
+
+.axis-325 {
+    animation: anim324 7779ms, fade1 7779ms;
+}
+
+.axis-326 {
+    animation: anim324 15404ms, fade8 15404ms;
+}
+
+.axis-327 {
+    animation: anim324 35542ms, fade2 35542ms;
+}
+
+.axis-328 {
+    animation: anim328 18915ms, fade6 18915ms;
+}
+
+.axis-329 {
+    animation: anim328 32499ms, fade4 32499ms;
+}
+
+.axis-330 {
+    animation: anim328 32237ms, fade8 32237ms;
+}
+
+.axis-331 {
+    animation: anim328 29583ms, fade2 29583ms;
+}
+
+.axis-332 {
+    animation: anim332 14309ms, fade1 14309ms;
+}
+
+.axis-333 {
+    animation: anim332 36585ms, fade10 36585ms;
+}
+
+.axis-334 {
+    animation: anim332 39946ms, fade4 39946ms;
+}
+
+.axis-335 {
+    animation: anim332 24933ms, fade7 24933ms;
+}
+
+.axis-336 {
+    animation: anim336 5674ms, fade10 5674ms;
+}
+
+.axis-337 {
+    animation: anim336 29561ms, fade4 29561ms;
+}
+
+.axis-338 {
+    animation: anim336 22645ms, fade3 22645ms;
+}
+
+.axis-339 {
+    animation: anim336 29208ms, fade1 29208ms;
+}
+
+.axis-340 {
+    animation: anim340 11719ms, fade4 11719ms;
+}
+
+.axis-341 {
+    animation: anim340 41867ms, fade3 41867ms;
+}
+
+.axis-342 {
+    animation: anim340 11101ms, fade7 11101ms;
+}
+
+.axis-343 {
+    animation: anim340 25519ms, fade9 25519ms;
+}
+
+.axis-344 {
+    animation: anim344 25644ms, fade6 25644ms;
+}
+
+.axis-345 {
+    animation: anim344 32775ms, fade5 32775ms;
+}
+
+.axis-346 {
+    animation: anim344 23674ms, fade3 23674ms;
+}
+
+.axis-347 {
+    animation: anim344 19922ms, fade2 19922ms;
+}
+
+.axis-348 {
+    animation: anim348 21417ms, fade9 21417ms;
+}
+
+.axis-349 {
+    animation: anim348 35429ms, fade3 35429ms;
+}
+
+.axis-350 {
+    animation: anim348 21223ms, fade8 21223ms;
+}
+
+.axis-351 {
+    animation: anim348 20617ms, fade6 20617ms;
+}
+
+.axis-352 {
+    animation: anim352 30514ms, fade8 30514ms;
+}
+
+.axis-353 {
+    animation: anim352 21493ms, fade1 21493ms;
+}
+
+.axis-354 {
+    animation: anim352 37497ms, fade7 37497ms;
+}
+
+.axis-355 {
+    animation: anim352 9840ms, fade4 9840ms;
+}
+
+.axis-356 {
+    animation: anim356 13415ms, fade1 13415ms;
+}
+
+.axis-357 {
+    animation: anim356 12676ms, fade1 12676ms;
+}
+
+.axis-358 {
+    animation: anim356 37455ms, fade10 37455ms;
+}
+
+.axis-359 {
+    animation: anim356 38296ms, fade3 38296ms;
+}
+
+.axis-360 {
+    animation: anim360 13055ms, fade9 13055ms;
+}
+
+@keyframes fade1 {
+    16% {
+        opacity: 0;
+    }
+
+    26% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade2 {
+    2% {
+        opacity: 0;
+    }
+
+    12% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade3 {
+    3% {
+        opacity: 0;
+    }
+
+    13% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade4 {
+    15% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade5 {
+    15% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade6 {
+    13% {
+        opacity: 0;
+    }
+
+    23% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade7 {
+    3% {
+        opacity: 0;
+    }
+
+    13% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade8 {
+    19% {
+        opacity: 0;
+    }
+
+    29% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade9 {
+    19% {
+        opacity: 0;
+    }
+
+    29% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade10 {
+    9% {
+        opacity: 0;
+    }
+
+    19% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes anim4 {
+    100% {
+        transform: translate(79.8051240208vw, 5.5805178995vh);
+    }
+}
+
+@keyframes anim8 {
+    100% {
+        transform: translate(79.2214454993vw, 11.1338480768vh);
+    }
+}
+
+@keyframes anim12 {
+    100% {
+        transform: translate(78.2518080587vw, 16.6329352654vh);
+    }
+}
+
+@keyframes anim16 {
+    100% {
+        transform: translate(76.9009356751vw, 22.0509884654vh);
+    }
+}
+
+@keyframes anim20 {
+    100% {
+        transform: translate(75.1754096629vw, 27.3616114661vh);
+    }
+}
+
+@keyframes anim24 {
+    100% {
+        transform: translate(73.0836366114vw, 32.5389314461vh);
+    }
+}
+
+@keyframes anim28 {
+    100% {
+        transform: translate(70.6358074287vw, 37.5577250229vh);
+    }
+}
+
+@keyframes anim32 {
+    100% {
+        transform: translate(67.8438476925vw, 42.3935411387vh);
+    }
+}
+
+@keyframes anim36 {
+    100% {
+        transform: translate(64.72135955vw, 47.0228201834vh);
+    }
+}
+
+@keyframes anim40 {
+    100% {
+        transform: translate(61.2835554495vw, 51.4230087749vh);
+    }
+}
+
+@keyframes anim44 {
+    100% {
+        transform: translate(57.5471840271vw, 55.5726696367vh);
+    }
+}
+
+@keyframes anim48 {
+    100% {
+        transform: translate(53.5304485087vw, 59.4515860382vh);
+    }
+}
+
+@keyframes anim52 {
+    100% {
+        transform: translate(49.252918026vw, 63.0408602885vh);
+    }
+}
+
+@keyframes anim56 {
+    100% {
+        transform: translate(44.7354322777vw, 66.3230058044vh);
+    }
+}
+
+@keyframes anim60 {
+    100% {
+        transform: translate(40vw, 69.2820323028vh);
+    }
+}
+
+@keyframes anim64 {
+    100% {
+        transform: translate(35.0696917431vw, 71.9035237039vh);
+    }
+}
+
+@keyframes anim68 {
+    100% {
+        transform: translate(29.9685274733vw, 74.1747083653vh);
+    }
+}
+
+@keyframes anim72 {
+    100% {
+        transform: translate(24.72135955vw, 76.0845213036vh);
+    }
+}
+
+@keyframes anim76 {
+    100% {
+        transform: translate(19.353751648vw, 77.6236581021vh);
+    }
+}
+
+@keyframes anim80 {
+    100% {
+        transform: translate(13.8918542133vw, 78.784620241vh);
+    }
+}
+
+@keyframes anim84 {
+    100% {
+        transform: translate(8.3622770614vw, 79.5617516295vh);
+    }
+}
+
+@keyframes anim88 {
+    100% {
+        transform: translate(2.7919597362vw, 79.9512661615vh);
+    }
+}
+
+@keyframes anim92 {
+    100% {
+        transform: translate(-2.7919597362vw, 79.9512661615vh);
+    }
+}
+
+@keyframes anim96 {
+    100% {
+        transform: translate(-8.3622770614vw, 79.5617516295vh);
+    }
+}
+
+@keyframes anim100 {
+    100% {
+        transform: translate(-13.8918542134vw, 78.784620241vh);
+    }
+}
+
+@keyframes anim104 {
+    100% {
+        transform: translate(-19.353751648vw, 77.6236581021vh);
+    }
+}
+
+@keyframes anim108 {
+    100% {
+        transform: translate(-24.72135955vw, 76.0845213036vh);
+    }
+}
+
+@keyframes anim112 {
+    100% {
+        transform: translate(-29.9685274733vw, 74.1747083653vh);
+    }
+}
+
+@keyframes anim116 {
+    100% {
+        transform: translate(-35.0696917431vw, 71.9035237039vh);
+    }
+}
+
+@keyframes anim120 {
+    100% {
+        transform: translate(-40vw, 69.2820323027vh);
+    }
+}
+
+@keyframes anim124 {
+    100% {
+        transform: translate(-44.7354322777vw, 66.3230058044vh);
+    }
+}
+
+@keyframes anim128 {
+    100% {
+        transform: translate(-49.2529180261vw, 63.0408602885vh);
+    }
+}
+
+@keyframes anim132 {
+    100% {
+        transform: translate(-53.5304485087vw, 59.4515860382vh);
+    }
+}
+
+@keyframes anim136 {
+    100% {
+        transform: translate(-57.5471840271vw, 55.5726696367vh);
+    }
+}
+
+@keyframes anim140 {
+    100% {
+        transform: translate(-61.2835554495vw, 51.4230087749vh);
+    }
+}
+
+@keyframes anim144 {
+    100% {
+        transform: translate(-64.72135955vw, 47.0228201834vh);
+    }
+}
+
+@keyframes anim148 {
+    100% {
+        transform: translate(-67.8438476924vw, 42.3935411387vh);
+    }
+}
+
+@keyframes anim152 {
+    100% {
+        transform: translate(-70.6358074286vw, 37.5577250229vh);
+    }
+}
+
+@keyframes anim156 {
+    100% {
+        transform: translate(-73.0836366112vw, 32.5389314461vh);
+    }
+}
+
+@keyframes anim160 {
+    100% {
+        transform: translate(-75.1754096624vw, 27.3616114661vh);
+    }
+}
+
+@keyframes anim164 {
+    100% {
+        transform: translate(-76.9009356743vw, 22.0509884654vh);
+    }
+}
+
+@keyframes anim168 {
+    100% {
+        transform: translate(-78.2518080574vw, 16.6329352656vh);
+    }
+}
+
+@keyframes anim172 {
+    100% {
+        transform: translate(-79.2214454971vw, 11.1338480771vh);
+    }
+}
+
+@keyframes anim176 {
+    100% {
+        transform: translate(-79.8051240171vw, 5.5805179vh);
+    }
+}
+
+@keyframes anim180 {
+    100% {
+        transform: translate(-79.9999999939vw, 0.0000000008vh);
+    }
+}
+
+@keyframes anim184 {
+    100% {
+        transform: translate(-79.805124011vw, -5.5805178982vh);
+    }
+}
+
+@keyframes anim188 {
+    100% {
+        transform: translate(-79.2214454836vw, -11.1338480746vh);
+    }
+}
+
+@keyframes anim192 {
+    100% {
+        transform: translate(-78.2518080337vw, -16.6329352618vh);
+    }
+}
+
+@keyframes anim196 {
+    100% {
+        transform: translate(-76.9009356358vw, -22.0509884595vh);
+    }
+}
+
+@keyframes anim200 {
+    100% {
+        transform: translate(-75.1754096017vw, -27.3616114568vh);
+    }
+}
+
+@keyframes anim204 {
+    100% {
+        transform: translate(-73.0836365169vw, -32.5389314314vh);
+    }
+}
+
+@keyframes anim208 {
+    100% {
+        transform: translate(-70.6358072839vw, -37.557725vh);
+    }
+}
+
+@keyframes anim212 {
+    100% {
+        transform: translate(-67.8438474725vw, -42.3935411032vh);
+    }
+}
+
+@keyframes anim216 {
+    100% {
+        transform: translate(-64.7213592185vw, -47.022820129vh);
+    }
+}
+
+@keyframes anim220 {
+    100% {
+        transform: translate(-61.2835549536vw, -51.423008692vh);
+    }
+}
+
+@keyframes anim224 {
+    100% {
+        transform: translate(-57.5471832906vw, -55.5726695113vh);
+    }
+}
+
+@keyframes anim228 {
+    100% {
+        transform: translate(-53.5304474226vw, -59.4515858499vh);
+    }
+}
+
+@keyframes anim232 {
+    100% {
+        transform: translate(-49.2529164353vw, -63.0408600078vh);
+    }
+}
+
+@keyframes anim236 {
+    100% {
+        transform: translate(-44.735429963vw, -66.3230053889vh);
+    }
+}
+
+@keyframes anim240 {
+    100% {
+        transform: translate(-39.9999966533vw, -69.2820316917vh);
+    }
+}
+
+@keyframes anim244 {
+    100% {
+        transform: translate(-35.0696869337vw, -71.9035228111vh);
+    }
+}
+
+@keyframes anim248 {
+    100% {
+        transform: translate(-29.9685206026vw, -74.1747070689vh);
+    }
+}
+
+@keyframes anim252 {
+    100% {
+        transform: translate(-24.721349791vw, -76.0845194323vh);
+    }
+}
+
+@keyframes anim256 {
+    100% {
+        transform: translate(-19.3537378633vw, -77.6236554167vh);
+    }
+}
+
+@keyframes anim260 {
+    100% {
+        transform: translate(-13.891834847vw, -78.7846164089vh);
+    }
+}
+
+@keyframes anim264 {
+    100% {
+        transform: translate(-8.362249995vw, -79.5617461908vh);
+    }
+}
+
+@keyframes anim268 {
+    100% {
+        transform: translate(-2.7919220994vw, -79.9512584836vh);
+    }
+}
+
+@keyframes anim272 {
+    100% {
+        transform: translate(2.7920118149vw, -79.951255378vh);
+    }
+}
+
+@keyframes anim276 {
+    100% {
+        transform: translate(8.3623487803vw, -79.5617365594vh);
+    }
+}
+
+@keyframes anim280 {
+    100% {
+        transform: translate(13.8919525223vw, -78.7845992823vh);
+    }
+}
+
+@keyframes anim284 {
+    100% {
+        transform: translate(19.3538857994vw, -77.6236290907vh);
+    }
+}
+
+@keyframes anim288 {
+    100% {
+        transform: translate(24.7215418116vw, -76.0844813291vh);
+    }
+}
+
+@keyframes anim292 {
+    100% {
+        transform: translate(29.9687740459vw, -74.1746535294vh);
+    }
+}
+
+@keyframes anim296 {
+    100% {
+        transform: translate(35.0700239391vw, -71.9034488065vh);
+    }
+}
+
+@keyframes anim300 {
+    100% {
+        transform: translate(40.0004457508vw, -69.2819304349vh);
+    }
+}
+
+@keyframes anim304 {
+    100% {
+        transform: translate(44.7360280553vw, -66.3228678216vh);
+    }
+}
+
+@keyframes anim308 {
+    100% {
+        transform: translate(49.2537112853vw, -63.0406741325vh);
+    }
+}
+
+@keyframes anim312 {
+    100% {
+        transform: translate(53.5315007796vw, -59.4513358667vh);
+    }
+}
+
+@keyframes anim316 {
+    100% {
+        transform: translate(57.5485748204vw, -55.5723347095vh);
+    }
+}
+
+@keyframes anim320 {
+    100% {
+        transform: translate(61.2853871724vw, -51.4225620336vh);
+    }
+}
+
+@keyframes anim324 {
+    100% {
+        transform: translate(64.7237636756vw, -47.0222264458vh);
+    }
+}
+
+@keyframes anim328 {
+    100% {
+        transform: translate(67.8469924807vw, -42.39275481vh);
+    }
+}
+
+@keyframes anim332 {
+    100% {
+        transform: translate(70.6399075605vw, -37.5566872034vh);
+    }
+}
+
+@keyframes anim336 {
+    100% {
+        transform: translate(73.0889651791vw, -32.5375662873vh);
+    }
+}
+
+@keyframes anim340 {
+    100% {
+        transform: translate(75.1823130503vw, -27.3598215917vh);
+    }
+}
+
+@keyframes anim344 {
+    100% {
+        transform: translate(76.9098519779vw, -22.0486492345vh);
+    }
+}
+
+@keyframes anim348 {
+    100% {
+        transform: translate(78.2632898269vw, -16.6298876035vh);
+    }
+}
+
+@keyframes anim352 {
+    100% {
+        transform: translate(79.2361877464vw, -11.1298895415vh);
+    }
+}
+
+@keyframes anim356 {
+    100% {
+        transform: translate(79.8239986358vw, -5.5753915744vh);
+    }
+}
+
+@keyframes anim360 {
+    100% {
+        transform: translate(80.0240979233vw, 0.0066192762vh);
+    }
+}
