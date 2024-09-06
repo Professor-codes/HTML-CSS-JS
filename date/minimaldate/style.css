@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    background-color: rgb(60, 60, 60);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+::selection {
+    color: white;
+    background: #d2d0d9;
+}
+
+.content {
+    display: inherit;
+}
+
+.arrow {
+    align-self: center;
+    margin: 0 1em 0 1em;
+    color: rgb(50, 50, 50);
+    font-size: 35px;
+    cursor: pointer;
+    transition: color .25s linear;
+}
+
+.arrow:hover {
+    color: #7a6ba3;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #8157f4;
+    border-radius: 1.6rem;
+    text-align: center;
+    line-height: 100px;
+    color: #fff;
+    -webkit-box-shadow: 0px 13px 74px -15px rgba(129, 87, 244, 1);
+    -moz-box-shadow: 0px 13px 74px -15px rgba(129, 87, 244, 1);
+    box-shadow: 0px 13px 74px -15px rgba(129, 87, 244, 1);
+}
+
+.shake-horizontal {
+    -webkit-animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+    animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
+
+@-webkit-keyframes shake-horizontal {
+
+    0%,
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    10%,
+    30%,
+    50%,
+    70% {
+        -webkit-transform: translateX(-10px);
+        transform: translateX(-10px);
+    }
+
+    20%,
+    40%,
+    60% {
+        -webkit-transform: translateX(10px);
+        transform: translateX(10px);
+    }
+
+    80% {
+        -webkit-transform: translateX(8px);
+        transform: translateX(8px);
+    }
+
+    90% {
+        -webkit-transform: translateX(-8px);
+        transform: translateX(-8px);
+    }
+}
+
+@keyframes shake-horizontal {
+
+    0%,
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    10%,
+    30%,
+    50%,
+    70% {
+        -webkit-transform: translateX(-10px);
+        transform: translateX(-10px);
+    }
+
+    20%,
+    40%,
+    60% {
+        -webkit-transform: translateX(10px);
+        transform: translateX(10px);
+    }
+
+    80% {
+        -webkit-transform: translateX(8px);
+        transform: translateX(8px);
+    }
+
+    90% {
+        -webkit-transform: translateX(-8px);
+        transform: translateX(-8px);
+    }
+}
