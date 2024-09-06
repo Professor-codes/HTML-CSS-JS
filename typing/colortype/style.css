@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    background-color: #222;
+}
+
+.container {
+    display: table;
+    width: 100vw;
+    height: 100vh;
+}
+
+.output {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 4vh 12vw;
+    width: 75vw;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 8vw;
+}
+
+.copy_color {
+    color: blueviolet;
+}
+
+.italic {
+    font-style: italic;
+    color: springgreen;
+}
+
+.letter {
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+.letter.anim {
+    opacity: 1;
+}
